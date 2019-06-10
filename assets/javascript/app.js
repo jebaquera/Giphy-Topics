@@ -1,0 +1,1 @@
+var topics = ["palms", "toucans", "tropical", "macaws"]
