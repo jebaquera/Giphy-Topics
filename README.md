@@ -1,5 +1,5 @@
 # Giphy-Topics
-<bold>A site with topics and gifs pulled using the Giphy API.</bold>
+<em>A site with topics and gifs pulled using the Giphy API.</em>
 <br /><hr />
 • The site contains button topics that have a Tropical theme to them. You can select from any of the pre-constructed search buttons to receive up to 10 animated GIFs for that particular topic. 
 <br /><br />
