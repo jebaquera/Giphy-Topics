@@ -1,6 +1,76 @@
-button,
-div,
+body {
+    /* background: url('../images/Charcoal_black_texture_9.jpg'); */
+    background-color: aliceblue;
+}
+
+.jumbotron {
+    background-color: honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    border: 2px solid grey;
+    padding: 30px;
+
+}
+
+
+#tropicButtons {
+    margin: 10px;
+}
+
+.showBtn {
+    padding: 6px;
+    margin: 3px;
+}
+
+
+img {
+    max-height: 150px;
+    padding: 10px;
+}
+
 form,
+.showBtn {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+form {
+    padding: 10px;
+}
+
+#newThemeInput {
+    color: black;
+}
+
+.ratingStyle {
+    color: white;
+    background-color: rgb(157, 177, 202);
+}
+
+#addTheme {
+    background-color: white;
+    color: olive;
+    border: none;
+}
+
 input {
-  margin: 10px;
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(238, 100, 14, 0);
+    border: .5px solid grey;
+    margin: 5px;
+}
+
+#addTheme {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
 }

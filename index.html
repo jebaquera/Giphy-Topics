@@ -12,64 +12,36 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
 
-    <script src=".assets/javascript/app.js"></script>
 
 </head>
 
 <body>
-
-<!-- top panel -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12">           
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-8">
-                            <!-- Holds the topics buttons (aka tv shows)-->
-                            <div class="panel panel-default" id="tvShowsPanel">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Tropical</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div id="categories"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-4">
-                            <!-- holds the add more textbox and button -->
-                            <div class="panel panel-default" id="addMorePanel">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Add Your Tropical Favorites</h3> 
-                                </div>
-                                <div class="panel-body">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="glyphicon glyphicon-film"></i></span>
-                                            <input type="text" class="form-control" id="topic-input">
-                                        </div>
-                                    <button type="submit" class="btn btn-default" id="add-topic">Add Favorite</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="btn btn-default toggle-favs" id="show-favs">Show Me</button>
-                        </div>
-                    </div>
-                </div>
+    <div class="jumbotron jumbotron-fluid">GIFs with a Tropical Theme</div>
+    <div class='container'>
+        <div class='row'>
+            <div id='tropicButtons'></div>
+        </div>
+        <div class='row'>
+            <div class='col-sm-9'>
+                <div class='display'></div>
+            </div>
+            <div class='col-sm-3'>
+                <form id='tropical-form'>
+                    <label for='newThemeInput'>Add Your Tropical Theme</label>
+                    <input type='text' id='newThemeInput'>
+                    <br>
+                    <input id='addTheme' type='submit' value='Add Theme'>
+                </form>
             </div>
         </div>
     </div>
-</div>
- 
-<!-- holds the results -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12" id="results"></div>
-        <div class="col-xs-0" id="favorites"></div>
-    </div>
-</div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
     
 </body>
 </html>
