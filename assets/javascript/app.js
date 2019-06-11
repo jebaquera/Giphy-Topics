@@ -59,7 +59,7 @@ $('#addTheme').on('click', function(){
     var newTheme = $('#newThemeInput').val().trim();
     tropicTitle.push(newTheme);
     createButtons();
-    return true;
+    return false;
 });
 
 createButtons();
