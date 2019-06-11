@@ -5,7 +5,7 @@ body {
 .jumbotron {
     background-color: honeydew;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
 }
@@ -69,6 +69,6 @@ button {
 
 #addTheme {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: normal;
 }
